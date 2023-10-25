@@ -1,9 +1,44 @@
-
 body {
 	background-image: linear-gradient(#050227, #000);
     background-image: cover;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* header */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header__logo {
+    
+}
+.header__nav {
+    color: white;
+    font-size: 40px;
+}
+
+.header__list {
+}
+
+.header__item {
+
+}
+.header__link {
+
+}
 
 /* container */
 .container {
